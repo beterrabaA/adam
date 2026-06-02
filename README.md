@@ -153,8 +153,8 @@ java --version
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/github-repositories-api.git
-cd github-repositories-api
+git clone git@github.com:beterrabaA/adam.git
+cd adam
 ```
 
 ### Build
