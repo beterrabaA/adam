@@ -184,7 +184,7 @@ http://localhost:8080
 ## Example Using cURL
 
 ```bash
-curl http://localhost:8080/repositories/octocat
+curl http://localhost:8080/api/v1/repositories/birobiro
 ```
 
 ## Design Decisions
@@ -195,7 +195,7 @@ curl http://localhost:8080/repositories/octocat
 - Java Records used for immutable DTOs
 - Spring RestClient used for GitHub integration
 
-## Future Improvements
+<!-- ## Future Improvements
 
 - GitHub authentication using Personal Access Tokens
 - Response caching
@@ -203,7 +203,7 @@ curl http://localhost:8080/repositories/octocat
 - Docker support
 - Integration tests with WireMock
 - Rate limit handling
-- Observability and metrics
+- Observability and metrics -->
 
 ## References
 
