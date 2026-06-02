@@ -97,12 +97,12 @@ GET api/v1/repositories/birobiro
 ```json
 [
   {
-    "repositoryName": "Hello-World",
-    "ownerLogin": "birobiro",
+    "name": "Hello-World",
+    "owner": "birobiro",
     "branches": [
       {
         "name": "main",
-        "lastCommitSha": "7fd1a60b01f91b314f59955a4e4d7d4d3f2f3f01"
+        "commit": "7fd1a60b01f91b314f59955a4e4d7d4d3f2f3f01"
       }
     ]
   }
