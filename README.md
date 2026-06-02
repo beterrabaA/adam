@@ -175,12 +175,6 @@ The application will start on:
 http://localhost:8080
 ```
 
-## Running Tests
-
-```bash
-./gradlew test
-```
-
 ## Example Using cURL
 
 ```bash
