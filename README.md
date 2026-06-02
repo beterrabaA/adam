@@ -44,7 +44,6 @@ src
 │   │       │   └── RepositoryController.java
 │   │       │
 │   │       ├── service
-│   │       │   ├── RepositoryService.java
 │   │       │   └── RepositoryServiceImpl.java
 │   │       │
 │   │       ├── client
@@ -66,16 +65,15 @@ src
 │   │       │   ├── UserNotFoundException.java
 │   │       │   └── GlobalExceptionHandler.java
 │   │       │
+│   │       ├── interfaces
+│   │       │   └── RepositoryService.java
 │   │       ├── config
 │   │       │   └── RestClientConfig.java
 │   │       │
-│   │       └── Application.java
+│   │       └── AdamApplication.java
 │   │
 │   └── resources
-│       └── application.yml
-│
-└── test
-    └── java
+│       └── application.properties
 ```
 
 ## API Endpoint
